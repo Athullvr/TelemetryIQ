@@ -1,0 +1,530 @@
+{
+  "predictions": [
+    {
+      "anomaly_score": 0.2973904958022674,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 50.0,
+        "std_cpu": 5.0,
+        "min_cpu": 45.0,
+        "max_cpu": 59.0,
+        "delta_cpu": 3.0,
+        "cpu_trend": 0.14,
+        "cpu_volatility": 0.11,
+        "mean_memory": 46.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.11,
+        "mean_requests": 1107.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 46.0,
+        "cost_delta": 5.0,
+        "unit_economics_ratio": 1.4
+      }
+    },
+    {
+      "anomaly_score": 0.18208377233675876,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 54.0,
+        "std_cpu": 3.0,
+        "min_cpu": 46.0,
+        "max_cpu": 66.0,
+        "delta_cpu": 6.0,
+        "cpu_trend": 0.23,
+        "cpu_volatility": 0.14,
+        "mean_memory": 49.0,
+        "std_memory": 2.0,
+        "memory_trend": 0.16,
+        "mean_requests": 1140.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 50.0,
+        "cost_delta": 6.0,
+        "unit_economics_ratio": 1.33
+      }
+    },
+    {
+      "anomaly_score": 0.7044071310449476,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "High CPU (85.0%)",
+        "Unstable CPU pattern"
+      ],
+      "features": {
+        "mean_cpu": 85.0,
+        "std_cpu": 13.0,
+        "min_cpu": 58.0,
+        "max_cpu": 95.0,
+        "delta_cpu": 33.0,
+        "cpu_trend": 3.02,
+        "cpu_volatility": 1.94,
+        "mean_memory": 56.0,
+        "std_memory": 6.0,
+        "memory_trend": 0.34,
+        "mean_requests": 1531.0,
+        "request_spike_count": 3.0,
+        "throughput_delta": 110.0,
+        "cost_delta": 47.0,
+        "unit_economics_ratio": 0.46
+      }
+    },
+    {
+      "anomaly_score": 0.724277995164554,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "High CPU (88.0%)",
+        "Unstable CPU pattern"
+      ],
+      "features": {
+        "mean_cpu": 88.0,
+        "std_cpu": 18.0,
+        "min_cpu": 53.0,
+        "max_cpu": 95.0,
+        "delta_cpu": 38.0,
+        "cpu_trend": 2.27,
+        "cpu_volatility": 1.66,
+        "mean_memory": 57.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.46,
+        "mean_requests": 1597.0,
+        "request_spike_count": 3.0,
+        "throughput_delta": 134.0,
+        "cost_delta": 50.0,
+        "unit_economics_ratio": 0.57
+      }
+    },
+    {
+      "anomaly_score": 0.1342223794911369,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 52.0,
+        "std_cpu": 4.0,
+        "min_cpu": 44.0,
+        "max_cpu": 66.0,
+        "delta_cpu": 4.0,
+        "cpu_trend": 0.31,
+        "cpu_volatility": 0.17,
+        "mean_memory": 46.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.15,
+        "mean_requests": 1236.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 45.0,
+        "cost_delta": 7.0,
+        "unit_economics_ratio": 1.38
+      }
+    },
+    {
+      "anomaly_score": 0.5396066859812289,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Memory increasing trend"
+      ],
+      "features": {
+        "mean_cpu": 63.0,
+        "std_cpu": 6.0,
+        "min_cpu": 49.0,
+        "max_cpu": 75.0,
+        "delta_cpu": 12.0,
+        "cpu_trend": 0.76,
+        "cpu_volatility": 0.31,
+        "mean_memory": 77.0,
+        "std_memory": 8.0,
+        "memory_trend": 1.19,
+        "mean_requests": 1527.0,
+        "request_spike_count": 2.0,
+        "throughput_delta": 105.0,
+        "cost_delta": 25.0,
+        "unit_economics_ratio": 0.53
+      }
+    },
+    {
+      "anomaly_score": 0.2521514381922686,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 51.0,
+        "std_cpu": 5.0,
+        "min_cpu": 46.0,
+        "max_cpu": 64.0,
+        "delta_cpu": 4.0,
+        "cpu_trend": 0.32,
+        "cpu_volatility": 0.14,
+        "mean_memory": 51.0,
+        "std_memory": 3.0,
+        "memory_trend": 0.08,
+        "mean_requests": 1135.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 42.0,
+        "cost_delta": 4.0,
+        "unit_economics_ratio": 1.47
+      }
+    },
+    {
+      "anomaly_score": 0.3688846282304726,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 55.0,
+        "std_cpu": 3.0,
+        "min_cpu": 46.0,
+        "max_cpu": 62.0,
+        "delta_cpu": 6.0,
+        "cpu_trend": 0.12,
+        "cpu_volatility": 0.14,
+        "mean_memory": 52.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.09,
+        "mean_requests": 1241.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 43.0,
+        "cost_delta": 6.0,
+        "unit_economics_ratio": 1.45
+      }
+    },
+    {
+      "anomaly_score": 0.669678606753298,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "High CPU (85.0%)",
+        "Unstable CPU pattern"
+      ],
+      "features": {
+        "mean_cpu": 85.0,
+        "std_cpu": 15.0,
+        "min_cpu": 58.0,
+        "max_cpu": 96.0,
+        "delta_cpu": 35.0,
+        "cpu_trend": 2.0,
+        "cpu_volatility": 2.05,
+        "mean_memory": 60.0,
+        "std_memory": 6.0,
+        "memory_trend": 0.43,
+        "mean_requests": 1629.0,
+        "request_spike_count": 2.0,
+        "throughput_delta": 145.0,
+        "cost_delta": 39.0,
+        "unit_economics_ratio": 0.57
+      }
+    },
+    {
+      "anomaly_score": 0.6611747978148521,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Unstable CPU pattern"
+      ],
+      "features": {
+        "mean_cpu": 71.0,
+        "std_cpu": 9.0,
+        "min_cpu": 50.0,
+        "max_cpu": 87.0,
+        "delta_cpu": 21.0,
+        "cpu_trend": 1.58,
+        "cpu_volatility": 1.08,
+        "mean_memory": 54.0,
+        "std_memory": 6.0,
+        "memory_trend": 0.46,
+        "mean_requests": 2309.0,
+        "request_spike_count": 5.0,
+        "throughput_delta": 336.0,
+        "cost_delta": 42.0,
+        "unit_economics_ratio": 1.6
+      }
+    },
+    {
+      "anomaly_score": 0.42430028998764574,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Memory increasing trend"
+      ],
+      "features": {
+        "mean_cpu": 59.0,
+        "std_cpu": 6.0,
+        "min_cpu": 51.0,
+        "max_cpu": 76.0,
+        "delta_cpu": 14.0,
+        "cpu_trend": 0.91,
+        "cpu_volatility": 0.33,
+        "mean_memory": 75.0,
+        "std_memory": 8.0,
+        "memory_trend": 1.1,
+        "mean_requests": 1535.0,
+        "request_spike_count": 2.0,
+        "throughput_delta": 91.0,
+        "cost_delta": 21.0,
+        "unit_economics_ratio": 0.64
+      }
+    },
+    {
+      "anomaly_score": 0.7817324413570919,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 0.9933333333333333,
+      "indicators": [
+        "High CPU (93.0%)",
+        "Unstable CPU pattern"
+      ],
+      "features": {
+        "mean_cpu": 93.0,
+        "std_cpu": 16.0,
+        "min_cpu": 60.0,
+        "max_cpu": 98.0,
+        "delta_cpu": 29.0,
+        "cpu_trend": 2.3,
+        "cpu_volatility": 1.46,
+        "mean_memory": 56.0,
+        "std_memory": 6.0,
+        "memory_trend": 0.37,
+        "mean_requests": 1650.0,
+        "request_spike_count": 2.0,
+        "throughput_delta": 105.0,
+        "cost_delta": 32.0,
+        "unit_economics_ratio": 0.54
+      }
+    },
+    {
+      "anomaly_score": 0.31978671823831933,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 51.0,
+        "std_cpu": 3.0,
+        "min_cpu": 44.0,
+        "max_cpu": 61.0,
+        "delta_cpu": 2.0,
+        "cpu_trend": 0.25,
+        "cpu_volatility": 0.13,
+        "mean_memory": 52.0,
+        "std_memory": 2.0,
+        "memory_trend": 0.13,
+        "mean_requests": 1285.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 47.0,
+        "cost_delta": 7.0,
+        "unit_economics_ratio": 1.46
+      }
+    },
+    {
+      "anomaly_score": 0.2842731451263939,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 50.0,
+        "std_cpu": 3.0,
+        "min_cpu": 46.0,
+        "max_cpu": 62.0,
+        "delta_cpu": 4.0,
+        "cpu_trend": 0.23,
+        "cpu_volatility": 0.15,
+        "mean_memory": 45.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.15,
+        "mean_requests": 1265.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 41.0,
+        "cost_delta": 7.0,
+        "unit_economics_ratio": 1.45
+      }
+    },
+    {
+      "anomaly_score": 0.4288064098706127,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 51.0,
+        "std_cpu": 3.0,
+        "min_cpu": 44.0,
+        "max_cpu": 64.0,
+        "delta_cpu": 5.0,
+        "cpu_trend": 0.14,
+        "cpu_volatility": 0.12,
+        "mean_memory": 52.0,
+        "std_memory": 2.0,
+        "memory_trend": 0.18,
+        "mean_requests": 1119.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 57.0,
+        "cost_delta": 4.0,
+        "unit_economics_ratio": 1.31
+      }
+    },
+    {
+      "anomaly_score": 0.30962515856435446,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "System stable"
+      ],
+      "features": {
+        "mean_cpu": 50.0,
+        "std_cpu": 3.0,
+        "min_cpu": 44.0,
+        "max_cpu": 62.0,
+        "delta_cpu": 5.0,
+        "cpu_trend": 0.24,
+        "cpu_volatility": 0.19,
+        "mean_memory": 45.0,
+        "std_memory": 2.0,
+        "memory_trend": 0.11,
+        "mean_requests": 1199.0,
+        "request_spike_count": 0.0,
+        "throughput_delta": 54.0,
+        "cost_delta": 6.0,
+        "unit_economics_ratio": 1.38
+      }
+    },
+    {
+      "anomaly_score": 0.5641923321253738,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Unstable CPU pattern",
+        "Traffic spikes detected"
+      ],
+      "features": {
+        "mean_cpu": 70.0,
+        "std_cpu": 9.0,
+        "min_cpu": 49.0,
+        "max_cpu": 88.0,
+        "delta_cpu": 17.0,
+        "cpu_trend": 1.43,
+        "cpu_volatility": 0.96,
+        "mean_memory": 59.0,
+        "std_memory": 5.0,
+        "memory_trend": 0.41,
+        "mean_requests": 2599.0,
+        "request_spike_count": 6.0,
+        "throughput_delta": 354.0,
+        "cost_delta": 46.0,
+        "unit_economics_ratio": 1.56
+      }
+    },
+    {
+      "anomaly_score": 0.7205903664464269,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Unstable CPU pattern",
+        "Traffic spikes detected"
+      ],
+      "features": {
+        "mean_cpu": 69.0,
+        "std_cpu": 9.0,
+        "min_cpu": 46.0,
+        "max_cpu": 86.0,
+        "delta_cpu": 22.0,
+        "cpu_trend": 1.54,
+        "cpu_volatility": 0.92,
+        "mean_memory": 58.0,
+        "std_memory": 4.0,
+        "memory_trend": 0.52,
+        "mean_requests": 2320.0,
+        "request_spike_count": 7.0,
+        "throughput_delta": 300.0,
+        "cost_delta": 44.0,
+        "unit_economics_ratio": 1.76
+      }
+    },
+    {
+      "anomaly_score": 0.33610117381098675,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Memory increasing trend"
+      ],
+      "features": {
+        "mean_cpu": 62.0,
+        "std_cpu": 6.0,
+        "min_cpu": 50.0,
+        "max_cpu": 78.0,
+        "delta_cpu": 12.0,
+        "cpu_trend": 0.76,
+        "cpu_volatility": 0.43,
+        "mean_memory": 72.0,
+        "std_memory": 7.0,
+        "memory_trend": 1.19,
+        "mean_requests": 1418.0,
+        "request_spike_count": 1.0,
+        "throughput_delta": 99.0,
+        "cost_delta": 19.0,
+        "unit_economics_ratio": 0.51
+      }
+    },
+    {
+      "anomaly_score": 0.48119262786578754,
+      "is_anomaly": false,
+      "incident_type": "Normal",
+      "confidence": 1.0,
+      "indicators": [
+        "Memory increasing trend"
+      ],
+      "features": {
+        "mean_cpu": 62.0,
+        "std_cpu": 6.0,
+        "min_cpu": 50.0,
+        "max_cpu": 76.0,
+        "delta_cpu": 11.0,
+        "cpu_trend": 0.75,
+        "cpu_volatility": 0.33,
+        "mean_memory": 76.0,
+        "std_memory": 8.0,
+        "memory_trend": 1.18,
+        "mean_requests": 1535.0,
+        "request_spike_count": 1.0,
+        "throughput_delta": 102.0,
+        "cost_delta": 22.0,
+        "unit_economics_ratio": 0.69
+      }
+    }
+  ]
+}
